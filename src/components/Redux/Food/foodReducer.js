@@ -8,11 +8,11 @@ const foodState = {
 const foodReducer = (state = foodState, action) => {
   switch (action.type) {
     case BuySandwich:
-      return { ...state, sandwich: state.sandwich - 1 };
+      return { ...state, sandwich: state.sandwich - action.payload };
     case BuyPizza:
-      return { ...state, pizza: state.pizza - 1 };
+      return { ...state, pizza: state.pizza - action.payload };
     case BuySoda:
-      return { ...state, soda: state.soda - 1 };
+      return { ...state, soda: state.soda - action.payload };
     default:
       return state;
   }

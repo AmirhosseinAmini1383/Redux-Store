@@ -6,10 +6,9 @@ body {
 .btnbuy {
   border: none;
   padding: 10px;
-  margin: 10px;
   color: white;
   font-family: "Vazir";
-  border-radius: 10px;
+  border-radius: 0px 10px 10px 0px;
   font-weight: bolder;
 }
 .bgclr-G {
@@ -20,4 +19,9 @@ body {
 }
 .bgclr-R {
   background: rgb(255, 32, 32);
+}
+.buyCount {
+  margin-left: 30px;
+  height: 38px;
+  border: none;
 }
