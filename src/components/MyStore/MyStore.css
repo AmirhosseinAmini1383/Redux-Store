@@ -1,0 +1,22 @@
+body {
+  font-family: "Vazir";
+  text-align: center;
+  background: rgb(164, 209, 255);
+}
+.btnbuy {
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-family: "Vazir";
+  border-radius: 10px;
+}
+.bgclr-G {
+  background: rgb(0, 102, 49);
+}
+.bgclr-O {
+  background: rgb(255, 110, 32);
+}
+.bgclr-R {
+  background: rgb(255, 32, 32);
+}
