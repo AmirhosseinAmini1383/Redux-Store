@@ -8,11 +8,11 @@ const fruitState = {
 const fruitReducer = (state = fruitState, action) => {
   switch (action.type) {
     case BuyApple:
-      return { ...state, apple: state.apple - 1 };
+      return { ...state, apple: state.apple - action.payload };
     case BuyOrange:
-      return { ...state, orange: state.orange - 1 };
+      return { ...state, orange: state.orange - action.payload };
     case BuyWatermelon:
-      return { ...state, watermelon: state.watermelon - 1 };
+      return { ...state, watermelon: state.watermelon - action.payload };
     default:
       return state;
   }
