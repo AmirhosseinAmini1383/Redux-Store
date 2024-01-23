@@ -1,4 +1,4 @@
-import { BuyApple, BuyOrange, BuyWatermelon } from "./FruitType";
+import { BuyApple, BuyOrange, BuyWatermelon } from "./fruitType";
 
 const fruitState = {
   apple: 15,

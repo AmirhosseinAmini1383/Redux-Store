@@ -1,4 +1,4 @@
-import { BuyApple, BuyOrange, BuyWatermelon } from "./FruitType";
+import { BuyApple, BuyOrange, BuyWatermelon } from "./fruitType";
 
 export const buyApple = () => {
   return {
