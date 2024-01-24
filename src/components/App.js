@@ -1,12 +1,12 @@
 import React from "react";
-import MyStore from "./MyStore/MyStore";
+import UserComponent from "./UserComponent";
 import { Provider } from "react-redux";
-import Store from "./Redux/Store";
+import store from "../redux/store";
 function App() {
   return (
-    <Provider store={Store}>
+    <Provider store={store}>
       <div>
-        <MyStore />
+        <UserComponent />
       </div>
     </Provider>
   );
